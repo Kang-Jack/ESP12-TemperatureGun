@@ -1,6 +1,13 @@
 # ESP12-TemperatureGun
 A ESP 12 project:
 
+Sensors:
+
+    MLX90614 : Infrared ray temperature 
+    
+    BMP280 : Temperature and atmospheric pressure
+
+
     1. Infrared ray temperature gun and Temperature and atmospheric pressure detector.
     
     2. Two modes provided : 

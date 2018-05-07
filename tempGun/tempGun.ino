@@ -18,6 +18,7 @@ Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 const int buttonPin = 14;    // the number of the pushbutton pin
 
 const int delayTime = 2000; 
+const int waittingSec = 3;
 bool isProMode = false;
 
 void init_oled() {
@@ -147,7 +148,8 @@ void setup(void){
   new_screen_oled(0,0,"Starting ESP12S");
   
   int readMode = digitalRead(buttonPin);
-  for (int i=0;i<5;i++){
+  int restSec = waittingSec;
+  for (int i=0;i<waittingSec;i++){
     if (readMode==LOW){
       isProMode=true;
       set_m_text();
@@ -160,6 +162,10 @@ void setup(void){
         delay(500); 
         set_s_text();
         new_screen_oled(0,28,"Push button for Pro. mode");
+        restSec = waittingSec-i;
+        char temp[30];
+        sprintf(temp,"Config time left %d Sec.",restSec);
+        new_screen_oled(0,32,temp);
         delay(500);   
         readMode = digitalRead(buttonPin);
       }

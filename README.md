@@ -15,3 +15,17 @@ BMP280 : Temperature and atmospheric pressure
         Pro. mode : Display more data
 
     3. OLED display enabled
+    
+    
+    =============================================================================
+    
+    ![image](https://github.com/Kang-Jack/ESP12-TemperatureGun/raw/master/png/1.png)
+    ![image](https://github.com/Kang-Jack/ESP12-TemperatureGun/raw/master/png/2.png)
+    ![image](https://github.com/Kang-Jack/ESP12-TemperatureGun/raw/master/png/3.png)
+    ![image](https://github.com/Kang-Jack/ESP12-TemperatureGun/raw/master/png/4.png)
+    ![image](https://github.com/Kang-Jack/ESP12-TemperatureGun/raw/master/png/5.png)
+    ![image](https://github.com/Kang-Jack/ESP12-TemperatureGun/raw/master/png/6.png)
+    ![image](https://github.com/Kang-Jack/ESP12-TemperatureGun/raw/master/png/7.png)
+    ![image](https://github.com/Kang-Jack/ESP12-TemperatureGun/raw/master/png/8.png)
+    
+    

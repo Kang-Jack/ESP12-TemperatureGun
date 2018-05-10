@@ -11,6 +11,7 @@ BMP280 : Temperature and atmospheric pressure
     1. Infrared thermometer and Temperature and atmospheric pressure detector.
     
     2. Two modes provided : 
+    
         Simple mode : Only display object temperature (Infrared ray detected when pushed button), 
         and enviroment temperature and atmospheric pressure detector.
         
